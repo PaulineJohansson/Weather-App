@@ -5,7 +5,7 @@ h1 {
 }
 .days {
   font-size: 20px;
-  color: green;
+  color: red;
 }
 .row {
   text-align: center;
@@ -35,4 +35,9 @@ input {
 
 .currentWeather {
   margin: 0px 20px;
+}
+
+.open-source {
+  text-align: left;
+  padding: 20px;
 }
