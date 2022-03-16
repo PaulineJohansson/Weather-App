@@ -1,0 +1,38 @@
+h1 {
+  color: rgb(34, 47, 165);
+  padding: 10px;
+  margin: 10px;
+}
+.days {
+  font-size: 20px;
+  color: green;
+}
+.row {
+  text-align: center;
+}
+
+.city {
+  padding: 30px;
+}
+
+h5 {
+  padding: 0px;
+  line-height: 1;
+}
+
+input {
+  margin: 30px;
+}
+
+.col-6 {
+  text-align: left;
+  margin: 0px 120px;
+}
+
+.col {
+  margin: 0px 20px;
+}
+
+.currentWeather {
+  margin: 0px 20px;
+}
