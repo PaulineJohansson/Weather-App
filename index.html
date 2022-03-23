@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <title>Weather App Plus Project</title>
     <meta charset="UTF-8" />
     <link
@@ -11,6 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link href="styles.css" />
   </head>
 
@@ -40,10 +41,8 @@
           </form>
           <div class="overview">
             <h1 id="city">Tokyo</h1>
-            <ul>
-              <li>Last updated: <span id="date">Friday 12.00</span></li>
-              <li id="description"></li>
-            </ul>
+            <h5>Last updated: <span id="date">Friday 12.00</span></h5>
+            <li id="description"></li>
           </div>
           <div class="row">
             <div class="col-6">
@@ -63,8 +62,8 @@
 
             <div class="col-6">
               <ul>
-                <li>Humidity: <span id="humidity">67</span>%</li>
-                <li>Wind: <span id="wind">5</span> km/h</li>
+                <li>💧 : <span id="humidity">67</span>%</li>
+                <li>💨 : <span id="wind">5</span> km/h</li>
               </ul>
             </div>
           </div>
