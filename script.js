@@ -8,6 +8,24 @@ function formatDate(timestamp) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
+  let year = date.getFullYear();
+  let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
+  let month = months[date.getMonth()];
+
   let days = [
     "Sunday",
     "Monday",
@@ -18,7 +36,8 @@ function formatDate(timestamp) {
     "Saturday",
   ];
   let day = days[date.getDay()];
-  return `${day} ${hours}:${minutes}`;
+  let dates = date.getDate();
+  return `${day} ${hours}:${minutes}, ${month} ${dates} ${year}`;
 }
 
 function formatDay(timestamp) {
