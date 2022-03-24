@@ -1,11 +1,15 @@
 h1 {
-  color: #408d99;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #1f6f78;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 20px;
   text-align: center;
 }
 
 h5 {
+  color: #1f6f78;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -13,14 +17,13 @@ h5 {
 
 li {
   list-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1f6f78;
 }
 
 li:first-letter {
   text-transform: capitalize;
-}
-
-li-description {
-  font-weight: 700;
 }
 
 img {
@@ -34,7 +37,7 @@ img {
 
 .weather-app {
   padding: 30px;
-  border: 1px solid #472222;
+  border: 1px solid #308f99;
   border-radius: 10px;
   background: linear-gradient(
     108.1deg,
@@ -51,11 +54,10 @@ input {
   margin: 50px;
 }
 
-.description {
-}
-
 .weather-temperature strong {
-  color: black;
+  color: #1f6f78;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 55px;
   line-height: 1;
   font-weight: 400;
@@ -68,6 +70,7 @@ input {
 }
 
 .weather-temperature .units {
+  color: #1f6f78;
   top: -28px;
   margin-left: -10px;
   position: relative;
@@ -75,10 +78,20 @@ input {
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.6;
+  color: #1f6f78;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.weather-forecast-temperature-max {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1f6f78;
 }
 
 .weather-forecast-temperature-min {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   opacity: 0.6;
 }
 
