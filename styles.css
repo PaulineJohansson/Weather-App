@@ -1,5 +1,5 @@
 h1 {
-  color: rgb(42, 44, 59);
+  color: #408d99;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   line-height: 20px;
   text-align: center;
@@ -17,6 +17,10 @@ li {
 
 li:first-letter {
   text-transform: capitalize;
+}
+
+li-description {
+  font-weight: 700;
 }
 
 img {
@@ -48,7 +52,6 @@ input {
 }
 
 .description {
-  font-weight: bold;
 }
 
 .weather-temperature strong {
@@ -56,24 +59,27 @@ input {
   font-size: 55px;
   line-height: 1;
   font-weight: 400;
-  margin: 30px 20px;
-  padding: 30px 20px;
+  padding: 10px;
 }
 
 .weather-temperature img {
-  margin-left: 30px;
   height: 64px;
   width: 64px;
 }
 
 .weather-temperature .units {
   top: -28px;
-  margin-left: -35px;
+  margin-left: -10px;
   position: relative;
 }
 
-.weather-forecast .forecast {
-  border: rgb(42, 44, 59);
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
 
 .open-source {
